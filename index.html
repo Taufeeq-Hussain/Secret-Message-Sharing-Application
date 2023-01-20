@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Message Sharing Application</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <div>
+        <header>
+            <p class="project"> Created By: Taufeeq Hussain</p>
+        </header>
+    </div>
+
+    <div class="para">
+        <h1>Secret Message Sharing Application</h1>
+        <p>This App Helps You To Share A Secret Message To Any Person Through A Link</p>
+        <p>Type Your Message And Just Click On 'Create' Button To Generate Link</p>
+
+    </div>
+
+    <div class="para1" id="secret-msg">
+        <div class="subpara1">
+            <form action="">
+                <label for="">Enter Secret Message </label><br>
+                <input type="text" id="msg-input" placeholder="Enter Message " /> <br><br>
+                <button type="submit" id="button">Create Link</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="para2" id="link">
+        <div class="subpara2">
+            <h3>Share This Link with Anyone</h3>
+            <input type="text" id="link-input">
+            <button id="copy">copy</button>
+        </div>
+    </div>
+
+    <div id="msg-link" class="hide">
+        <h2 id="final"></h2>
+        <div>
+            <a href="./index.html">
+                <p id="link1">
+                    Create Your Own Secret Message</p>
+            </a>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

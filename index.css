@@ -1,0 +1,59 @@
+body {
+    background: url("../images/bk1.jpg");
+}
+
+.project {
+    text-align: center;
+    width: 100%;
+    top: 5px;
+    position: fixed;
+}
+
+.para {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.subpara1 {
+    text-align: center;
+    padding: 25px;
+}
+
+#button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lavender
+}
+
+#button:hover {
+    background-color: rgb(200, 208, 251);
+}
+
+#link {
+    text-align: center;
+}
+
+#copy {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lavender;
+}
+
+#copy:hover {
+    background-color: rgb(200, 208, 251);
+}
+
+.hide {
+    display: none;
+}
+
+#final {
+    text-align: center;
+    margin-top: 70px;
+}
+
+a {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
